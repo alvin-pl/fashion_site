@@ -1,0 +1,180 @@
+body{
+    /* margin-top: 0; */
+    /* padding: none; */
+}
+
+
+h3{
+    text-align: center;
+}
+
+#clothing-container{
+    display: grid;
+    gap: 15px;
+    /* width: 100%; */
+    grid-template-columns: 1fr 1fr;
+    background: #f8f9fa;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.clothing-grid{
+    height: 200px;
+    text-align: center;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+/* .image{
+    height: 150px;
+    width: 150px;
+} */
+img.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.form-control{
+    border-radius: 25%;
+}
+
+.searchBar1{
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    z-index: 700;
+}
+
+.searchBar2 {
+    width: 100%;
+    background-color: #fff;
+}
+
+.searchBar3 {
+    width: 100%;
+    height: 4rem;
+    border-bottom: 0.1rem solid;
+    padding: 0;
+    background-color: #fff;
+}
+
+.searchBar4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.searchBar5 {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.searchBar6 {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 2.4rem;
+    width: auto;
+}
+
+.searchBar7 {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 1.9rem;
+    line-height: 1.16;
+    font-weight: 400;
+    min-width: 0;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    border: 0.1rem solid #212121;
+    border-radius: 0;
+    color: #212121;
+    padding: 1rem 0.7rem;
+    font-family: Bookish,Arial,sans-serif;
+    font-size: 1.9rem;
+    line-height: 1.16;
+    font-weight: 400;
+    font-family: Helvetica,Arial,sans-serif;
+    border: none;
+    height: 100%;
+    position: relative;
+    font-family: Bookish,Arial,sans-serif;
+    font-size: 1.9rem;
+    line-height: 1.16;
+    font-weight: 400;
+    font-family: Helvetica,Arial,sans-serif;
+    border: none;
+    height: 100%;
+}
+
+.searchBar8 {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: auto;
+}
+
+.input-group-append1{
+    /* display: flex; */
+    flex-wrap: nowrap;
+}
+
+.input-group-append{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display:none;
+    background: #eee;
+}
+
+.active{
+    visibility: visible;
+}
+
+ul.pagination{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* object fit contain */
